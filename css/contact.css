@@ -774,10 +774,18 @@ a.menu-not-active {
         margin-bottom: 16px;
     }
 
+    .responsive {
+        margin-right: 2%;
+    }
+
 
     /*----------------------------------------------------------------------------------*/
     /*  Blog
     /*-----------------------------------------------------------------------------------*/
+    .col-md-6 {
+        padding-left: 15%;
+    }
+
     .container-blog-h {
         padding-top: 32%;
         padding-bottom: 1%;
@@ -811,11 +819,16 @@ a.menu-not-active {
         font-size: 20px;
     }
 
-    .btn-primary-blog{
-        margin-left: 22px;
-        margin-right: 22px;
-        width: 250px;
-        height: 50px;
+    .btn-primary-email, .btn-primary-normal{
+        margin-left: 7px;
+        margin-right: 7px;
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .btn-primary-socials {
+        margin-right: 0px;
     }
 
     /*----------------------------------------------------------------------------------*/
