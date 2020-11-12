@@ -604,6 +604,18 @@ a.menu-not-active {
         margin-right: 60px;
         width: 75%;
     }
+
+    .btn-primary-socials {
+        margin-right: 50px;
+    }
+
+    /*----------------------------------------------------------------------------------*/
+    /*  Footer
+    /*-----------------------------------------------------------------------------------*/
+    .text-center {
+        font-size: 15px;
+    }
+
 }
 
 /* 481px to 600px */
@@ -654,6 +666,19 @@ a.menu-not-active {
     .container-blog-h {
         padding-top: 20%;
         padding-bottom: 1%;
+    }
+
+
+    /*----------------------------------------------------------------------------------*/
+    /*  Blog
+    /*-----------------------------------------------------------------------------------*/
+    .btn-primary-email, .btn-primary-email{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .btn-primary-socials {
+        margin-right: 35px;
     }
 }
 
