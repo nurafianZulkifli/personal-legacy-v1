@@ -650,6 +650,7 @@ img.badge-2 {
     .col-md-6 {
         padding-top: 20px;
         padding-bottom: 60px;
+        padding-right: 8%;
     }
 
     #blog {
@@ -974,6 +975,7 @@ img.badge-2 {
     .col-md-6 {
         padding-top: 0px;
         padding-bottom: 60px;
+        padding-right: 5%;
     }
 
     .blog-info  {

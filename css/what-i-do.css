@@ -503,6 +503,7 @@ figcaption {
     }
     #about .separator-description {
         padding-top: 2%;
+        padding-right: 10%;
         max-width: 100%;
         text-align: center;
         color: #000000;
@@ -511,7 +512,7 @@ figcaption {
     }
     .img-fluid {
         max-width: 100%;
-        height: 400px;
+        height: 325px;
         margin-left: 10%;
     }
     figcaption {

@@ -451,6 +451,7 @@ a.menu-not-active {
     .col-md-6 {
         padding-top: 20px;
         padding-bottom: 60px;
+        padding-right: 9%;
     }
 
     #blog {
@@ -462,13 +463,13 @@ a.menu-not-active {
     }
     .blog-text p {
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 24px;
         max-width: 82%;
     }
 
     .btn-primary-blog{
-        margin-left: 35px;
+        margin-left: 12px;
         margin-right: 35px;
     }
 
@@ -532,7 +533,7 @@ a.menu-not-active {
     /*  Blog
     /*-----------------------------------------------------------------------------------*/
     .container-blog-h {
-        padding-top: 14%;
+        padding-top: 18%;
         padding-bottom: 1%;
     }
     
@@ -551,7 +552,7 @@ a.menu-not-active {
         width: 75%;
     }
 
-    
+
     /*----------------------------------------------------------------------------------*/
     /*  Footer
     /*-----------------------------------------------------------------------------------*/
