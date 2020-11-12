@@ -273,6 +273,16 @@ img.badge-2 {
     padding-bottom: 1%;
 }
 
+.col-lg-4 { 
+    transition: all 0.3s ease-out; 
+}
+
+.col-lg-4:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+      0 24px 46px var(--box-shadow-color);
+}
+
 .blog-info  {
     background: #ffffff;
     border-radius: 5%;
