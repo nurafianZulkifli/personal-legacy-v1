@@ -373,9 +373,17 @@ a.menu-not-active {
         width: 100%;
     }
 
-    .btn-primary-blog{
+    .btn-primary-email, .btn-primary-normal{
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .btn-primary-socials {
+        margin-right: 5px;
+    }
+
+    .blog-text p {
+        font-size: 19px;
     }
 }
 
@@ -499,7 +507,7 @@ a.menu-not-active {
         max-width: 82%;
     }
 
-    .btn-primary-blog{
+    .btn-primary-normal{
         margin-left: 35px;
         margin-right: 35px;
     }
@@ -591,7 +599,7 @@ a.menu-not-active {
         padding-left: 10%;
     }
 
-    .btn-primary-normal{
+    .btn-primary-email{
         margin-left: 60px;
         margin-right: 60px;
         width: 75%;
