@@ -1,0 +1,703 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #ffffff;
+    color: #898989;
+    font-family: 'Calibri';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2.5em;
+    letter-spacing: 0.02em;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Navbar Top
+/*-----------------------------------------------------------------------------------*/
+
+nav {
+    position: fixed;
+    background: rgba(214, 211, 211, 0.931);
+    z-index: 1000;
+    width: 100%;
+    -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+}
+
+.nav-menu {
+    float: right;
+    line-height: 32px;
+    margin-bottom: 0;
+    padding-top: 36px;
+}
+
+a.menu {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3px;
+    color: #000000;
+}
+
+a.menu:hover, a.menu:focus, a.menu-active:hover {
+    text-decoration: none;
+    color: #936174;
+}
+
+a.menu-active {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 3px;
+}
+
+a.ig {
+    font-size: 25px;
+    margin-top: -4px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #000000;
+}
+
+a.twt {
+    font-size: 25px;
+    margin-top: -4px;
+    color: #000000;
+}
+
+a.fb {
+    font-size: 25px;
+    margin-top: -4px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #000000;
+}
+
+a.ig:hover, a.twt:hover, a.fb:hover {
+    color:#936174;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+nav ul li.socials {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Poppins', helvetica;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 227px;
+    height: 79px;
+    margin-left: 13%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.responsive {
+    display: none;
+    font-size: 30px;
+    color: #000000;
+}
+
+.active {
+    color: #afafaf;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
+
+#header {
+    background: url("../images/What-I-Do-Page/wid_wide.png") repeat scroll center center / cover;
+    width: 100%;
+    height: 100%;
+}
+
+#header .header-content {
+    height: 70vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-content h1 {
+    font-size: 57px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 34px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.container-nz {
+    width: 100%;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*  About Header
+/*-----------------------------------------------------------------------------------*/
+
+#about {
+    width: 100%;
+    height: 100%;
+    background-color: #efefef;
+    padding-top: 80px;
+}
+
+#about .p-heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+
+#about .separator-description {
+    margin-bottom: 5%;
+    max-width: 100%;
+    padding-top: 1%;
+    text-align: left;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+img.badge-1 {
+    width: 133px;
+    height: 130px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*  Images
+/*-----------------------------------------------------------------------------------*/
+
+.img-fluid {
+    max-width: 100%;
+    width: 377px;
+    height: 257px;
+}
+
+.col-md-4,  .col-lg-3 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 5%;
+}
+
+figcaption {
+    color: #000000;
+    line-height: 1.6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Footer
+/*-----------------------------------------------------------------------------------*/
+.page-footer {
+    background-color: #dddada;
+}
+
+.list-inline {
+    margin-bottom: 0%;
+}
+
+.text-center {
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.footer-social {
+    font-size: 30px;
+    color: #000000;
+    margin-left: 25px;
+}
+
+.footer-social:hover {
+    color: #936174;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/* Responsive Elements
+/*----------------------------------------------------------------------------------*/
+
+@media (max-width: 1199px) {
+    .img-fluid {
+        height: 220px;
+    }
+}
+
+/* 992px to 1046px*/
+@media (max-width: 1067px) {
+    /*----------------------------------------------------------------------------------*/
+    /*  Navbar Top
+    /*-----------------------------------------------------------------------------------*/
+    .nav-menu {
+        margin-top: 40px;
+        display: none;
+        float: none;
+        width: 100%;
+    }
+    .nav-menu li {
+        width: 100%;
+        text-align: center;
+        line-height: 45px;
+        margin-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .responsive {
+        float: right;
+        padding-top: 22px;
+        display: block;
+        margin-right: 1%;
+    }
+    /*----------------------------------------------------------------------------------*/
+    /*  About
+    /*-----------------------------------------------------------------------------------*/
+    #about {
+        width: 100%;
+        height: auto;
+        background-color: #efefef;
+        padding-top: 90px;
+    }
+    .p-heading {
+        font-size: 45px;
+        text-align: center;
+        font-weight: bold;
+        color: #000000;
+        margin-left: 0%;
+    }
+    .separator-description {
+        padding-top: 2%;
+        max-width: 100%;
+        text-align: center;
+        color: #000000;
+        font-size: 26px;
+        margin-left: 0%;
+        font-weight: bolder;
+        margin-bottom: 2%;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: 210px;
+    }
+}
+
+/* 940px to 991px */
+@media (max-width: 991px) {
+    /*----------------------------------------------------------------------------------*/
+    /*  Header
+    /*-----------------------------------------------------------------------------------*/
+    #header {
+        background: url("../images/What-I-Do-Page/wid_991.png") repeat scroll center center / cover;
+        height: 70vh;
+        width: 100%;
+    }
+
+    /* Navbar */
+    nav {
+        padding: 10px 15px;
+        background-color: #cfcace;
+    }
+
+    .nav-menu {
+        margin-top: 40px;
+        display: none;
+        float: none;
+        width: 100%;
+    }
+
+    .nav-menu li {
+        width: 100%;
+        text-align: center;
+        line-height: 45px;
+        margin-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    nav ul li.socials {
+        margin-left: 0;
+    }
+
+    .responsive {
+        float: right;
+        padding-top: 27px;
+        display: block;
+    }
+
+    a.menu-active {
+        padding-bottom: 2%;
+    }
+
+    .header-content h1 {
+        text-align: center;
+    }
+
+    .header-content p {
+        text-align: center;
+    }
+
+    /*----------------------------------------------------------------------------------*/
+    /*  About
+    /*-----------------------------------------------------------------------------------*/
+    .p-heading {
+        font-size: 45px;
+        text-align: center;
+        font-weight: bold;
+        color: #000000;
+        margin-left: 8%;
+    }
+    .separator-summary {
+        max-width: 80%;
+        margin-bottom: 0;
+        text-align: left;
+        color: #000000;
+        font-weight: bold;
+        font-size: 25px;
+        margin-left: 20%;
+    }
+    .separator-description {
+        padding-top: 2%;
+        max-width: 100%;
+        text-align: left;
+        color: #000000;
+        font-size: 26px;
+        font-weight: bolder;
+    }
+    /*  Timeline */
+    .img-item1 {
+        width: 274px;
+        height: 280px;
+    }
+    .img-item2 {
+        padding-left: 0px;
+        width: 274px;
+        height: 280px;
+    }
+    .img-item3 {
+        width: 274px;
+        height: 429px;
+    }
+    .img-item4 {
+        margin-left: 0%;
+        width: 274px;
+        height: 243px;
+    }
+    .btn-primary-details {
+        margin-left: 0%;
+    }
+    .card-body {
+        margin-left: 0%;
+    }
+    .p-2 {
+        margin-left: -6%;
+    }
+    .timeline-article figcaption {
+        margin-top: 5%;
+    }
+}
+
+/* 768px to 939px */
+@media (max-width: 939px) {
+    /*----------------------------------------------------------------------------------*/
+    /*  Header
+    /*-----------------------------------------------------------------------------------*/
+    #header {
+        background: url("../images/What-I-Do-Page/wid_991.png") repeat scroll center center / cover;
+        height: 70vh;
+        width: 100%;
+    }
+}
+
+/* 601px to 767px */
+@media (max-width: 767px) {
+    /*----------------------------------------------------------------------------------*/
+    /*  Header
+    /*-----------------------------------------------------------------------------------*/
+    #header {
+        background: url("../images/What-I-Do-Page/wid_991.png") repeat scroll center center / cover;
+        height: 70vh;
+        width: 100%;
+    }
+    #header .header-content {
+        text-align: right;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header-content h1 {
+        font-size: 57px;
+        margin-bottom: 10px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .header-content p {
+        font-size: 34px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        color: #fff;
+        font-weight: bolder;
+    }
+    /*----------------------------------------------------------------------------------*/
+    /*  About
+    /*-----------------------------------------------------------------------------------*/
+    #about .p-heading {
+        font-size: 45px;
+        text-align: center;
+        font-weight: bold;
+        color: #000000;
+        margin-left: 0%;
+        line-height: 1;
+    }
+    #about .separator-description {
+        padding-top: 2%;
+        max-width: 100%;
+        text-align: center;
+        color: #000000;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: 400px;
+        margin-left: 10%;
+    }
+    figcaption {
+        text-align: center;
+    }
+
+    /*----------------------------------------------------------------------------------*/
+    /*  Blog
+    /*-----------------------------------------------------------------------------------*/
+    .blog-info {
+        background: #ffffff;
+        border-radius: 5%;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.144);
+        width: 90%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .btn-primary-blog {
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 75%;
+    }
+}
+
+/* 481px to 600px */
+@media (max-width: 600px) {
+    /*----------------------------------------------------------------------------------*/
+    /*  Header
+    /*-----------------------------------------------------------------------------------*/
+    #header {
+        background: url("../images/What-I-Do-Page/wid_991.png") repeat scroll center center / cover;
+        height: 70vh;
+        width: 100%;
+    }
+    #header .header-content {
+        text-align: right;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header-content h1 {
+        font-size: 57px;
+        margin-bottom: 10px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .header-content p {
+        font-size: 29px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        color: #fff;
+        font-weight: bolder;
+    }
+    img.badge-1 {
+        width: 81px;
+        height: 74px;
+    }
+}
+
+/* 470px to 480px */
+@media (max-width: 480px) {
+    /*----------------------------------------------------------------------------------*/
+    /*  Header
+    /*-----------------------------------------------------------------------------------*/
+    #header {
+        background: url("../images/What-I-Do-Page/wid_mobile.png") repeat scroll center center / cover;
+        height: 65vh;
+        width: 100%;
+    }
+    .header-content h1 {
+        font-size: 37px;
+        margin-bottom: 1px;
+        margin-top: -14%;
+        color: #fff;
+    }
+    .responsive {
+        float: right;
+        padding-top: 22px;
+        display: block;
+        margin-right: 10%;
+    }
+
+
+    /*----------------------------------------------------------------------------------*/
+    /*  About
+    /*-----------------------------------------------------------------------------------*/
+    #about {
+        width: 100%;
+        height: auto;
+        background-color: #efefef;
+        padding-top: 70px;
+    }
+    .div-img-bg {
+        padding-bottom: 30px;
+    }
+    .div-img-bg .about-img img {
+        width: 100%;
+        height: 290px;
+        box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+        object-fit: cover;
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+    .p-heading {
+        font-size: 45px;
+        text-align: center;
+        font-weight: bold;
+        color: #000000;
+        margin-left: 0%;
+    }
+    .separator-summary {
+        max-width: 90%;
+        margin-bottom: 0;
+        text-align: center;
+        color: #000000;
+        font-weight: bold;
+        font-size: 23px;
+        margin-left: 5%;
+    }
+    
+
+    /*-----------------------------------------------------------------------------------*/
+    /*  Images
+    /*-----------------------------------------------------------------------------------*/
+    .img-fluid {
+        margin-left: 6%;
+    }
+}
+
+/* 321px to 469px */
+@media (max-width: 469px) {
+    /*-----------------------------------------------------------------------------------*/
+    /*  Images
+    /*-----------------------------------------------------------------------------------*/
+    .img-fluid {
+        margin-left: 0%;
+    }
+}
+
+/* 0px to 320px */
+@media (max-width: 320px) {
+    /*-----------------------------------------------------------------------------------*/
+    /*  Header
+    /*-----------------------------------------------------------------------------------*/
+    #header {
+        background: url("../images/What-I-Do-Page/wid_mobile.png") repeat scroll center center / cover;
+        height: 100vh;
+        width: 100%;
+    }
+    .header-content h1 {
+        font-size: 42px;
+        margin-bottom: 1px;
+        margin-top: -20%;
+    }
+    .header-content p {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    /*----------------------------------------------------------------------------------*/
+    /*  About
+    /*-----------------------------------------------------------------------------------*/
+    .p-heading {
+        margin-left: 5%;
+    }
+    .separator-summary {
+        margin-left: 5%;
+    }
+    .separator-description {
+        margin-left: 12%;
+    }
+    .btn-primary-first, .btn-primary-second {
+        margin-left: 12%;
+    }
+    /*----------------------------------------------------------------------------------*/
+    /*  
+    /*-----------------------------------------------------------------------------------*/
+    .img-fluid {
+        margin-left: 0%;
+    }
+
+    /*----------------------------------------------------------------------------------*/
+    /*  Footer
+    /*-----------------------------------------------------------------------------------*/
+    .text-center {
+        font-size: 18px;
+    }
+}
