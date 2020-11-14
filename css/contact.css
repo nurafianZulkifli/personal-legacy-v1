@@ -508,8 +508,9 @@ a.menu-not-active {
     }
 
     .btn-primary-normal{
-        margin-left: 35px;
-        margin-right: 35px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 90%;
     }
 
 }
@@ -678,7 +679,8 @@ a.menu-not-active {
     }
 
     .btn-primary-socials {
-        margin-right: 35px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
 
