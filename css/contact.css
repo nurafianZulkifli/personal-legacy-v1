@@ -716,6 +716,8 @@ a.menu-not-active {
     }
     
     .col-md-6 {
+        width: 95%;
+        padding-left: 8%;
         padding-top: 0px;
         padding-bottom: 60px;
     }
@@ -800,10 +802,6 @@ a.menu-not-active {
     /*----------------------------------------------------------------------------------*/
     /*  Blog
     /*-----------------------------------------------------------------------------------*/
-    .col-md-6 {
-        padding-left: 15%;
-    }
-
     .container-blog-h {
         padding-top: 32%;
         padding-bottom: 1%;
@@ -813,6 +811,7 @@ a.menu-not-active {
     .col-md-6 {
         padding-top: 0px;
         padding-bottom: 60px;
+        padding-left: 9%;
     }
 
     .blog-info  {
