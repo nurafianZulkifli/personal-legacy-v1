@@ -682,7 +682,7 @@ a.menu-not-active {
     }
 }
 
-/* 321px to 480px */
+/* 375px to 480px */
 @media (max-width: 480px) {
 
     /*----------------------------------------------------------------------------------*/
@@ -748,6 +748,24 @@ a.menu-not-active {
         width: 90%;
         height: 50px;
     }
+}
+
+/* 320px to 375px */
+@media (max-width: 375px) {
+    .col-md-6 {
+        width: 95%;
+        padding-left: 8%;
+    }
+
+    .btn-primary-email, .btn-primary-normal{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+
+    .btn-primary-socials {
+        margin-right: 0px;
+    }
+
 }
 
 /* 0px to 320px */
