@@ -1,82 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!-- Title, FavIcon -->
-  <title> Home | Nurafian Zulkifli</title>
-  <link rel="shortcut icon" type="image/x-icon" href="images/FavIco.ico">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-
-  <!-- JQuery JS -->
-  <script src="js/jquery/jquery-3.4.1.js"></script>
-
-  <!-- Bootstrap JS -->
-  <script src="js/bootstrap/bootstrap.js"></script>
-
-  <!-- JS -->
-  <script src="js/main.js"></script>
-
-  <!-- Metas -->
+  <!-- meta -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<!-- Bootstrap CSS File -->
-<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+  <title>Nurafian Z | Home</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-<!-- CSS -->
-<link rel="stylesheet" type="text/css" href=css/index.css> 
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i"
+    rel="stylesheet">
 
-</head> 
-  
-  <body>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Navigation Bar -->
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/index.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/index_responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+
+  <!-- start section navbar -->
   <nav id="main-nav">
     <div class="row">
-      <div class="container-nz">
+      <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="images/Logo.png" alt="logo"></a>
+          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </div>
 
-        <div class="responsive"><i class="fas fa-bars"></i></div>
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="menu-active">Home</a></li>
-          <li><a href="#about" class="menu">About Me</a></li>
-          <li><a href="what-i-do.html" class="menu">What I do</a></li>
-          <li><a href="#blog" class="menu">Blog</a></li>
-          <li><a href="contact.html" class="menu">Contact</a></li>
-          <li class="socials"><a href="https://www.instagram.com/nrfz._/" class="ig">
-            <i class="fab fa-instagram"></i></li>
-          <li class="socials"><a href="https://twitter.com/_nrf_z" class="twt">
-            <i class="fab fa-twitter"></i></a></li>
-          <li class="socials"><a href="https://www.facebook.com/Gumokz" class="fb">
-            <i class="fab fa-facebook"></i></a></li>
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#not-done-yet" class="smoothScroll">Contact</a></li>
         </ul>
 
       </div>
     </div>
   </nav>
+  <!-- End section navbar -->
 
 
-  <!-- Header Section -->
+  <!-- start section header -->
   <div id="header" class="home">
 
     <div class="container">
       <div class="header-content">
-        <h1>Howdy! I'm </h1>
-        <p>Nurafian Zulkifli</p>
-        <div>
-          <img src="./images/Landing/I4.png" class="badge-1" alt="Student">
-          <img src="./images/Landing/I1.png" class="badge-2" alt="Gadget Enthusiast">
-        </div>
+        <h1>Howdy! <br> I'm <span class="typed"></span></h1>
+        <p>A Student, an aspiring UX Designer</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+        </ul>
       </div>
     </div>
   </div>
+  <!-- End section header -->
 
 
-  <!-- About Section -->
+  <!-- start section about us -->
   <div id="about" class="paddsection">
     <div class="container">
       <div class="row justify-content-between">
@@ -84,7 +100,7 @@
         <div class="col-lg-4 ">
           <div class="div-img-bg">
             <div class="about-img">
-              <img src="images/About-Landing/self.jpg" class="img-responsive" alt="me">
+              <img src="images/me.jpg" class="img-responsive" alt="me">
             </div>
           </div>
         </div>
@@ -92,63 +108,110 @@
         <div class="col-lg-7">
           <div class="about-descr">
 
-            <p class="p-heading">About Me </p>
-            <p class="separator-summary">I'm a student, and a Gadget Enthusiast.</p>
-            <p class="separator-description">To many, a phone is just a phone that does it's purpose, but for me, there's more to it.</p>
-            <a href="about-me.html" class="btn btn-primary-first" role="button">Find out more</a>
-            <a href="what-i-do.html" class="btn btn-primary-second" role="button">What I do</a>
+            <p class="p-heading">I'm a student, and an aspiring designer</p>
+            <p class="separator">I am 20 years old, and currently studying in Singapore Polytechnic.
+              My interest mostly revolves around Smartphones or Mobile Gadgets.</p>
+
           </div>
 
         </div>
       </div>
     </div>
   </div>
+  <!-- end section about us -->
 
 
-  <!-- Blog Section -->
-  <div id="blog" class="text-left paddsection">
 
-    <div class="container-blog-h">
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
       <div class="section-title text-center">
-        <h1 class="blog-title">Blog</h1>
-        <h4 class="blog-description">What is going on inside my head? Read them here.</h4>
+        <h2>My Works</h2>
       </div>
     </div>
 
     <div class="container">
-      <div class="blog-block">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">all</li>
+              <li class="filter" data-filter=".mobileui">Mobile UIs</li>
+              <li class="filter" data-filter=".logodesign">Logo Designs</li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mobileui">
+              <a class="popup-img" href="images/portfolio/frc.png">
+                <img src="images/portfolio/frc.png" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mobileui">
+              <a class="popup-img" href="images/portfolio/fls.png">
+                <img src="images/portfolio/fls.png" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all logodesign">
+              <a class="popup-img" href="images/portfolio/ffl.png">
+                <img src="images/portfolio/ffl.png" alt="img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->
+ <!--  <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Blog</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
         <div class="row">
 
           <div class="col-lg-4 col-md-6">
-            <div class="blog-info">
+            <div class="journal-info">
 
-              <a href="./blog-pages/a-look-back.html"><img src="images/Blog-Landing/look.jpg" class="img-responsive" alt="img"></a>
+              <a href="blog-single.html"><img src="images/Blog-Landing/look.jpg" class="img-responsive" alt="img"></a>
 
-              <div class="blog-text">
+              <div class="journal-txt">
 
-                <h4>A look back at 2019</h4>
+                <h4><a href="blog-single.html">A look back at 2019</a></h4>
                 <p class="separator">A lot has happened this year, be it positively or negatively..
                 </p>
 
-                <a href="./blog-pages/a-look-back.html" class="btn btn-primary-blog" role="button">Read more</a>
-
               </div>
 
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
-            <div class="blog-info">
+            <div class="journal-info">
 
-              <a href="./blog-pages/school-experience.html"><img src="images/Blog-Landing/sc.jpg" class="img-responsive" alt="img"></a>
+              <a href="blog-single.html"><img src="images/Blog-Landing/sc.jpg" class="img-responsive" alt="img"></a>
 
-              <div class="blog-text">
+              <div class="journal-txt">
 
-                <h4>School Experience</h4>
+                <h4><a href="#blog-single.html">School Experience</a></h4>
                 <p class="separator">The new Polytechnic semester has started. While my...
                 </p>
-                
-                <a href="./blog-pages/school-experience.html" class="btn btn-primary-blog" role="button">Read more</a>
 
               </div>
 
@@ -156,17 +219,16 @@
           </div>
 
           <div class="col-lg-4 col-md-6">
-            <div class="blog-info">
+            <div class="journal-info">
 
-              <a href="./blog-pages/done-and-dusted.html"><img src="images/Blog-Landing/grad.jpg" class="img-responsive" alt="img"></a>
+              <a href="blog-single.html"><img src="images/Blog-Landing/grad.jpg" class="img-responsive" alt="img"></a>
 
-              <div class="blog-text">
+              <div class="journal-txt">
 
-                <h4>Done and Dusted</h4>
+                <h4><a href="blog-single.html">Done and Dusted</a></h4>
                 <p class="separator">The 2 years in ITE is up. I barely had time to digest...
                 </p>
 
-                <a href="./blog-pages/done-and-dusted.html" class="btn btn-primary-blog" role="button">Read more</a>
               </div>
 
             </div>
@@ -175,42 +237,30 @@
         </div>
       </div>
     </div>
+
+  </div> -->
+  <!-- End section journal -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; 2020 Copyright. All rights reserved</p>
+    </div>
   </div>
+  <!-- End section footer -->
 
+</body>
 
-
-  <!-- Footer -->
-<footer class="page-footer pt-4">
-
-  <!-- Footer Elements -->
-  <div class="container">
-
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
-      <li class="list-inline-item">
-        <a href="https://www.instagram.com/nrfz._/" class="footer-social">
-          <i class="fab fa-instagram"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a href="https://twitter.com/_nrf_z" class="footer-social">
-          <i class="fab fa-twitter"></a></i>
-      </li>
-      <li class="list-inline-item">
-        <a href="https://www.facebook.com/Gumokz" class="footer-social">
-          <i class="fab fa-facebook"> </i>
-        </a>
-      </li>
-    </ul>
-
-  </div>
-
-  <div class="footer-copyright text-center py-3">©2020 Copyright. All rights reserved
-  </div>
-
-</footer>
-
-
-  </body>
-
-</html
+</html>
