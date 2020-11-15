@@ -1,12 +1,13 @@
-/** Width between 1200x to 0
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+/*-----------------------------------------------------------------------------------*/ 
+/*  Width between 1200x to 0
+/*-----------------------------------------------------------------------------------*/
 
 @media (min-width: 1200px) {}
 
-/** Width between 992px to 1199px
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+
+/*-----------------------------------------------------------------------------------*/  
+/*  Width between 992px to 1199px
+/*-----------------------------------------------------------------------------------*/ 
 
 @media (min-width: 992px) and (max-width: 1199px) {
     h1#timeline {
@@ -14,9 +15,10 @@
     }
 }
 
-/** Width between 768px to 991px
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+
+/*-----------------------------------------------------------------------------------*/ 
+/* Width between 768px to 991px
+/*-----------------------------------------------------------------------------------*/ 
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* Navbar */
@@ -44,11 +46,13 @@
         padding-top: 15px;
         display: block;
     }
-    /*  */
+
+    /* Timeline */
     h1#timeline {
         padding-top: 5%;
     }
-    /* portfolio */
+
+    /* Portfolio */
     #portfolio .portfolio-list .nav li {
         float: none;
         margin: 20px;
@@ -63,9 +67,10 @@
     }
 }
 
-/** Width between 767px to 0
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+
+/*-----------------------------------------------------------------------------------*/ 
+/* Width between 767px to 0
+/*-----------------------------------------------------------------------------------*/ 
 
 @media (max-width: 767px) {
     /* Navbar */
@@ -93,7 +98,8 @@
         padding-top: 15px;
         display: block;
     }
-    /*  */
+
+    /* Timeline */
     h1#timeline {
         padding-top: 13%;
     }
@@ -101,7 +107,7 @@
         margin-bottom: 10px;
     }
 
-    /* portfolio */
+    /* Portfolio */
     #portfolio .portfolio-list .nav li {
         float: none;
         margin: 20px;
@@ -116,9 +122,10 @@
     }
 }
 
-/** Width between 600px to 0
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+
+/*-----------------------------------------------------------------------------------*/ 
+/* Width between 600px to 0
+/*-----------------------------------------------------------------------------------*/ 
 
 @media (max-width: 600px) {
     /* Navbar */
@@ -150,16 +157,18 @@
         display: block;
     }
 
-    /*  */
+    /* Timeline */
     h1#timeline {
         padding-top: 15%;
     }
-    /* portfolio */
+
+    /* Portfolio */
     #portfolio .portfolio-list .nav li {
         float: none;
         margin: 10px;
         display: inline-block;
     }
+
     /* Footer */
     #footer .socials-media ul li {
         margin-right: 0;
@@ -169,9 +178,10 @@
     }
 }
 
-/** Width between 480px to 0
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+
+/*-----------------------------------------------------------------------------------*/ 
+/* Width between 480px to 0
+/*-----------------------------------------------------------------------------------*/ 
 
 @media (max-width: 480px) {
     /* Navbar */
@@ -199,16 +209,18 @@
         padding-top: 15px;
         display: block;
     }
-    /*  */
+
+    /* Timeline */
     .img-footer {
         padding-right: 50px;
     }
 
-    /* portfolio */
+    /* Portfolio */
     #portfolio .portfolio-list .nav li {
         float: none;
         margin: 20px;
     }
+
     /* Footer */
     #footer .socials-media ul li {
         margin-right: 0;
@@ -218,9 +230,10 @@
     }
 }
 
-/** Width between 320px to 0
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+
+/*-----------------------------------------------------------------------------------*/ 
+/* Width between 320px to 0
+/*-----------------------------------------------------------------------------------*/ 
 
 @media (max-width: 320px) {
     /* Navbar */
@@ -248,11 +261,13 @@
         padding-top: 15px;
         display: block;
     }
-    /* portfolio */
+
+    /* Portfolio */
     #portfolio .portfolio-list .nav li {
         float: none;
         margin: 20px;
     }
+    
     /* Footer */
     #footer .socials-media ul li {
         margin-right: 0;

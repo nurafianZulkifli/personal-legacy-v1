@@ -1,7 +1,4 @@
-/*
-*/
-
-
+/*-----------------------------------------------------------------------------------*/
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
@@ -23,10 +20,7 @@ body {
     box-sizing: border-box;
 }
 
-h1,
-h3,
-h5,
-h6 {
+h1, h3, h5, h6 {
     margin: 0;
 }
 
@@ -53,8 +47,7 @@ a:hover {
     transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     color: #b8a07e;
     text-decoration: underline;
 }
@@ -92,8 +85,7 @@ p {
     text-transform: uppercase;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
     color: #fff;
 }
 
@@ -153,10 +145,7 @@ p {
     margin-bottom: 30px;
 }
 
-
 /*-----------------------------------------------------------------------------------*/
-
-
 /*  Navbar Top
 /*-----------------------------------------------------------------------------------*/
 
@@ -216,8 +205,9 @@ nav ul li a {
     color: #afafaf;
 }
 
-
-/*  */
+/*-----------------------------------------------------------------------------------*/
+/*  Timeline
+/*-----------------------------------------------------------------------------------*/
 
 .page-header {
     margin-top: 10%;
@@ -263,8 +253,7 @@ h3#timeline {
     position: relative;
 }
 
-.timeline li:before,
-.timeline li:after {
+.timeline li:before, .timeline li:after {
     content: " ";
     display: table;
 }
@@ -273,8 +262,7 @@ h3#timeline {
     clear: both;
 }
 
-.timeline li:before,
-.timeline li:after {
+.timeline li:before, .timeline li:after {
     content: " ";
     display: table;
 }
@@ -363,8 +351,7 @@ h3#timeline {
     color: inherit;
 }
 
-.timeline-body p,
-.timeline-body ul {
+.timeline-body p, .timeline-body ul {
     padding: 20px;
     margin-top: 0px;
     margin-bottom: 0;
@@ -393,11 +380,6 @@ h3#timeline {
     font-size: 11px;
     opacity: 0;
     filter: alpha(opacity=0);
-}
-
-.tooltip.in {
-    /*opacity:0;
-      filter:alpha(opacity=80);*/
 }
 
 .tooltip.top {
@@ -474,11 +456,8 @@ h3#timeline {
     width: 180px;
 }
 
-
 /*-----------------------------------------------------------------------------------*/
-
-
-/*  Portfolio
+/*  Achievements
 /*-----------------------------------------------------------------------------------*/
 
 .col-lg-4 {
@@ -491,21 +470,21 @@ h3#timeline {
     box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
 }
 
-#portfolio {
+#achievements {
     position: relative;
     padding-bottom: 50px;
 }
 
-#portfolio .portfolio-list {
+#achievements .achievements-list {
     margin-bottom: 50px;
 }
 
-#portfolio .portfolio-list .nav {
+#achievements .achievements-list .nav {
     display: inline-block;
     margin: 0;
 }
 
-#portfolio .portfolio-list .nav li {
+#achievements .achievements-list .nav li {
     margin: 0 40px 0 0;
     float: left;
     font-size: 14px;
@@ -516,43 +495,31 @@ h3#timeline {
     font-weight: 500;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    -ms-transition: all 0.5s ease-in-out 0s;
-    -o-transition: all 0.5s ease-in-out 0s;
-    -webkit-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover,
-#portfolio .portfolio-list .nav li.filter-active {
+#achievements .achievements-list .nav li:hover, #achievements .achievements-list .nav li.filter-active {
     color: #b8a07e;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    -ms-transition: all 0.5s ease-in-out 0s;
-    -o-transition: all 0.5s ease-in-out 0s;
-    -webkit-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-container {
+#achievements .achievements-container {
     display: inline-block;
     margin-bottom: 50px;
     width: 100%;
 }
 
-.portfolio-thumbnail {
+.achievements-thumbnail {
     margin-bottom: 30px;
     overflow: hidden;
     min-height: 260px;
 }
 
-.portfolio-thumbnail img {
+.achievements-thumbnail img {
     max-width: 100%;
 }
 
-
 /*-----------------------------------------------------------------------------------*/
-
-
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
 

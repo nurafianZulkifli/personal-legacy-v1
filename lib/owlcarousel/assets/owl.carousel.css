@@ -13,14 +13,12 @@
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
   z-index: 1; }
-
   .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
     touch-action: manipulation;
     -moz-backface-visibility: hidden;
     /* fix firefox animation glitch */ }
-
   .owl-carousel .owl-stage:after {
     content: ".";
     display: block;
@@ -28,13 +26,11 @@
     visibility: hidden;
     line-height: 0;
     height: 0; }
-
   .owl-carousel .owl-stage-outer {
     position: relative;
     overflow: hidden;
     /* fix for flashing background */
     -webkit-transform: translate3d(0px, 0px, 0px); }
-
   .owl-carousel .owl-wrapper,
   .owl-carousel .owl-item {
     -webkit-backface-visibility: hidden;
@@ -43,7 +39,6 @@
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0); }
-
   .owl-carousel .owl-item {
     position: relative;
     min-height: 1px;
@@ -51,15 +46,12 @@
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
-
   .owl-carousel .owl-item img {
     display: block;
     width: 100%; }
-
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
-
   .owl-carousel .owl-nav .owl-prev,
   .owl-carousel .owl-nav .owl-next,
   .owl-carousel .owl-dot {
@@ -69,7 +61,6 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; }
-
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
@@ -78,20 +69,15 @@
     border: none;
     padding: 0 !important;
     font: inherit; }
-
   .owl-carousel.owl-loaded {
     display: block; }
-
   .owl-carousel.owl-loading {
     opacity: 0;
     display: block; }
-
   .owl-carousel.owl-hidden {
     opacity: 0; }
-
   .owl-carousel.owl-refresh .owl-item {
     visibility: hidden; }
-
   .owl-carousel.owl-drag .owl-item {
     -ms-touch-action: none;
         touch-action: none;
@@ -99,14 +85,11 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; }
-
   .owl-carousel.owl-grab {
     cursor: move;
     cursor: grab; }
-
   .owl-carousel.owl-rtl {
     direction: rtl; }
-
   .owl-carousel.owl-rtl .owl-item {
     float: right; }
 

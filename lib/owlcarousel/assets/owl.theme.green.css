@@ -10,7 +10,6 @@
   margin-top: 10px;
   text-align: center;
   -webkit-tap-highlight-color: transparent; }
-
   .owl-theme .owl-nav [class*='owl-'] {
     color: #FFF;
     font-size: 14px;
@@ -24,7 +23,6 @@
       background: #4DC7A0;
       color: #FFF;
       text-decoration: none; }
-
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;
     cursor: default; }
@@ -35,7 +33,6 @@
 .owl-theme .owl-dots {
   text-align: center;
   -webkit-tap-highlight-color: transparent; }
-
   .owl-theme .owl-dots .owl-dot {
     display: inline-block;
     zoom: 1;

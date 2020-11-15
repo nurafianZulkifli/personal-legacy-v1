@@ -1,7 +1,4 @@
-/*
-*/
-
-
+/*-----------------------------------------------------------------------------------*/
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
@@ -23,10 +20,7 @@ body {
     box-sizing: border-box;
 }
 
-h1,
-h3,
-h5,
-h6 {
+h1, h3, h5, h6 {
     margin: 0;
 }
 
@@ -53,8 +47,7 @@ a:hover {
     transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     color: #b8a07e;
     text-decoration: underline;
 }
@@ -92,8 +85,7 @@ p {
     text-transform: uppercase;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
     color: #fff;
 }
 
@@ -155,8 +147,6 @@ p {
 
 
 /*-----------------------------------------------------------------------------------*/
-
-
 /*  Navbar Top
 /*-----------------------------------------------------------------------------------*/
 
@@ -218,8 +208,6 @@ nav ul li a {
 
 
 /*----------------------------------------------------------------------------------*/
-
-
 /*  Header
 /*-----------------------------------------------------------------------------------*/
 
@@ -268,9 +256,7 @@ nav ul li a {
 
 
 /*-----------------------------------------------------------------------------------*/
-
-
-/*  About-us
+/*  About
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -312,11 +298,6 @@ nav ul li a {
 
 
 /*-----------------------------------------------------------------------------------*/
-
-
-/*-----------------------------------------------------------------------------------*/
-
-
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
 
@@ -352,8 +333,7 @@ nav ul li a {
     transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover,
-#portfolio .portfolio-list .nav li.filter-active {
+#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
     color: #b8a07e;
     -moz-transition: all 0.5s ease-in-out 0s;
     -ms-transition: all 0.5s ease-in-out 0s;
@@ -380,82 +360,6 @@ nav ul li a {
 
 
 /*-----------------------------------------------------------------------------------*/
-
-
-/*-----------------------------------------------------------------------------------*/
-
-
-/*  Journal
-/*-----------------------------------------------------------------------------------*/
-
-.col-lg-4 {
-    margin-bottom: 3%;
-    transition: all 0.3s ease-out;
-}
-
-.col-lg-4:hover {
-    transform: translateY(-5px) scale(1.005) translateZ(0);
-    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
-}
-
-#journal,
-#journal-blog {
-    height: auto;
-    width: 100%;
-    background: #f7f7f7;
-    padding-bottom: 60px;
-    position: relative;
-}
-
-#journal-blog {
-    background: #fff;
-    padding-bottom: 30px;
-}
-
-#journal .journal-block {
-    display: inline-block;
-    height: auto;
-    width: 100%;
-}
-
-#journal .journal-block .journal-info {
-    position: relative;
-}
-
-.journal-block .journal-info img {
-    max-width: 100%;
-}
-
-.journal-block .journal-info .journal-txt {
-    padding: 25px 0px;
-    position: relative;
-}
-
-.journal-block .journal-info .journal-txt h4 a {
-    display: block;
-    font-size: 19px;
-    line-height: 24px;
-    margin: 0 0 13px 0;
-    font-weight: 500;
-    color: #292929;
-    transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt h4 a:hover {
-    color: #b8a07e;
-    transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt p {
-    margin: 0;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-
-/*-----------------------------------------------------------------------------------*/
-
-
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
 
