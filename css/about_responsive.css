@@ -97,6 +97,10 @@
     h1#timeline {
         padding-top: 13%;
     }
+    .section-title {
+        margin-bottom: 10px;
+    }
+
     /* portfolio */
     #portfolio .portfolio-list .nav li {
         float: none;
@@ -150,7 +154,6 @@
     h1#timeline {
         padding-top: 15%;
     }
-
     /* portfolio */
     #portfolio .portfolio-list .nav li {
         float: none;

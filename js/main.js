@@ -99,6 +99,9 @@ $(window).load(function(){
 })
 
 
+// ========================================================================= //
+//  Timeline Tooltip Hover
+// ========================================================================= //
 $(document).ready(function(){
   var my_posts = $("[rel=tooltip]");
   for(i=0;i<my_posts.length;i++){
