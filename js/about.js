@@ -12,21 +12,6 @@ $(document).ready(function () {
     });
 
     // ========================================================================= //
-    //  Typed JS
-    // ========================================================================= //
-
-    var typed = $(".typed");
-
-    $(function () {
-        typed.typed({
-            strings: ["Nurafian Zulkifli "],
-            typeSpeed: 100,
-            loop: false,
-        });
-    });
-
-
-    // ========================================================================= //
     //  Owl Carousel Services
     // ========================================================================= //
 
@@ -70,20 +55,20 @@ $(document).ready(function () {
 });
 
 // ========================================================================= //
-//  Porfolio isotope and filter
+//  Achievements isotope and filter
 // ========================================================================= //
 $(window).load(function () {
 
-    var portfolioIsotope = $('.portfolio-container').isotope({
-        itemSelector: '.portfolio-thumbnail',
+    var achievementsIsotope = $('.achievements-container').isotope({
+        itemSelector: '.achievements-thumbnail',
         layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function () {
-        $("#portfolio-flters li").removeClass('filter-active');
+    $('#achievements-flters li').on('click', function () {
+        $("#achievements-flters li").removeClass('filter-active');
         $(this).addClass('filter-active');
 
-        portfolioIsotope.isotope({ filter: $(this).data('filter') });
+        achievementsIsotope.isotope({ filter: $(this).data('filter') });
     });
 
 })
