@@ -56,14 +56,10 @@ a.menu-active {
 }
 
 a:hover, a:focus {
-    color: a.menu-active {
-        text-decoration: none;
-        color: #de895e;
-        padding-bottom: 11px;
-        border-bottom: 2px solid #de895e;
-    };
+    color: #de895e;
     text-decoration: underline;
 }
+
 
 nav ul li a {
     padding: 2px 0 0 0;
