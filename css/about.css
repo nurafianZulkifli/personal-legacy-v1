@@ -76,7 +76,7 @@ p {
     margin: 25px 0;
     padding: 0;
     font-size: 15px;
-    color: #999999;
+    color: #ffffff;
     line-height: 28px;
 }
 
@@ -217,101 +217,262 @@ nav ul li a {
 }
 
 
-/*----------------------------------------------------------------------------------*/
+/*  */
 
-
-/*  Header
-/*-----------------------------------------------------------------------------------*/
-
-#header {
-    background: url("../images/header.png") repeat scroll center center / cover;
-    height: 100vh;
-    width: 100%;
+.page-header {
+    margin-top: 10%;
 }
 
-#header .header-content {
-    height: 100vh;
-    text-align: left;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.header-content h1 {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.header-content p {
-    font-size: 13px;
-    letter-spacing: 5px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    text-transform: capitalize;
-    color: #fff;
-    font-weight: 500;
-}
-
-.header-content .list-social li {
-    float: left;
-    margin-right: 20px;
-}
-
-.header-content .list-social li i {
-    color: #fff;
-    font-size: 15px;
-}
-
-
-/*-----------------------------------------------------------------------------------*/
-
-
-/*  About-us
-/*-----------------------------------------------------------------------------------*/
-
-#about {
-    width: 100%;
-    height: auto;
-    background: #f7f7f7;
-    padding-top: 110px;
-}
-
-#about .div-img-bg {
-    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.144);
-}
-
-#about .div-img-bg .about-img img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-#about .about-descr .p-heading {
-    font-family: 'Poppins', serif;
-    font-size: 28px;
-    text-align: left;
+h1#timeline {
+    color: #000000;
     font-weight: bold;
-    color: #000;
 }
 
-#about .about-descr .separator {
-    max-width: 80%;
+p#subtitle {
+    color: #000000;
+    margin-top: 1%;
+}
+
+h3#timeline {
+    padding-left: 20px;
+    padding-top: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline li:before,
+.timeline li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline li:after {
+    clear: both;
+}
+
+.timeline li:before,
+.timeline li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline li:after {
+    clear: both;
+}
+
+.timeline li .timeline-panel {
+    width: 46%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    background-color: #ea4646;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline li .timeline-panel:before {
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+}
+
+.timeline li .timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #ea4646;
+    border-right: 0 solid #797979;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline li .timeline-badge {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -12px;
+    z-index: 100;
+}
+
+.timeline li.timeline-inverted .timeline-panel {
+    float: right;
+    background-color: #797979;
+}
+
+.timeline li.timeline-inverted .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline li.timeline-inverted .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline-badge a {
+    color: #C5C7C5 !important;
+}
+
+.timeline-badge a:hover {
+    color: #FF531F !important;
+}
+
+.timeline-title {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline-body p,
+.timeline-body ul {
+    padding: 20px;
+    margin-top: 0px;
     margin-bottom: 0;
-    text-align: left;
-    color: #000;
 }
 
-#about .btn-primary {
-    background-color: #DE895E;
-    width: 90%;
+.timeline-body p+p {
+    margin-top: 5px;
 }
 
+.timeline-footer {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
 
-/*-----------------------------------------------------------------------------------*/
+.timeline-footer a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1020;
+    display: block;
+    visibility: visible;
+    padding: 5px;
+    font-size: 11px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.tooltip.in {
+    /*opacity:0;
+      filter:alpha(opacity=80);*/
+}
+
+.tooltip.top {
+    margin-top: -2px;
+}
+
+.tooltip.right {
+    margin-left: 2px;
+}
+
+.tooltip.bottom {
+    margin-top: 2px;
+}
+
+.tooltip.left {
+    margin-left: -2px;
+}
+
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    border-left: 0 solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 0 solid #000;
+}
+
+.tooltip.left .tooltip-arrow {
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    border-left: 0 solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 0 solid #000;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    border-left: 0 solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 0 solid #000;
+}
+
+.tooltip.right .tooltip-arrow {
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    border-left: 0 solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 0 solid #000;
+}
+
+.tooltip-inner {
+    width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF531F;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.img-footer {
+    width: 180px;
+}
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -382,80 +543,6 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 
-/*-----------------------------------------------------------------------------------*/
-
-
-/*  Journal
-/*-----------------------------------------------------------------------------------*/
-
-.col-lg-4 {
-    margin-bottom: 3%;
-    transition: all 0.3s ease-out;
-}
-
-.col-lg-4:hover {
-    transform: translateY(-5px) scale(1.005) translateZ(0);
-    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
-}
-
-#journal,
-#journal-blog {
-    height: auto;
-    width: 100%;
-    background: #f7f7f7;
-    padding-bottom: 60px;
-    position: relative;
-}
-
-#journal-blog {
-    background: #fff;
-    padding-bottom: 30px;
-}
-
-#journal .journal-block {
-    display: inline-block;
-    height: auto;
-    width: 100%;
-}
-
-#journal .journal-block .journal-info {
-    position: relative;
-}
-
-.journal-block .journal-info img {
-    max-width: 100%;
-}
-
-.journal-block .journal-info .journal-txt {
-    padding: 25px 0px;
-    position: relative;
-}
-
-.journal-block .journal-info .journal-txt h4 a {
-    display: block;
-    font-size: 19px;
-    line-height: 24px;
-    margin: 0 0 13px 0;
-    font-weight: 500;
-    color: #292929;
-    transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt h4 a:hover {
-    color: #b8a07e;
-    transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt p {
-    margin: 0;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-
-/*-----------------------------------------------------------------------------------*/
-
-
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
 
@@ -510,6 +597,7 @@ nav ul li a {
     font-weight: 500;
     margin-top: 0;
     text-transform: uppercase;
+    color: #868686;
 }
 
 .credits {
