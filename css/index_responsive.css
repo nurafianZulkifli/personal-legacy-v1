@@ -31,7 +31,6 @@
         float: none;
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid #acacac;
         line-height: 45px;
         margin-left: 0;
         padding-top: 10px;
@@ -101,8 +100,7 @@
     .nav-menu li {
         float: none;
         width: 100%;
-        text-align: center;
-        border-bottom: 1px solid #acacac;
+        text-align: center; 
         line-height: 45px;
         margin-left: 0;
         padding-top: 10px;
@@ -189,7 +187,6 @@
         float: none;
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid #acacac;
         line-height: 45px;
         margin-left: 0;
         padding-top: 10px;
@@ -277,7 +274,6 @@
         float: none;
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid #acacac;
         line-height: 45px;
         margin-left: 0;
         padding-top: 10px;
@@ -344,7 +340,6 @@
         float: none;
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid #acacac;
         line-height: 45px;
         margin-left: 0;
         padding-top: 10px;
