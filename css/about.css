@@ -47,8 +47,16 @@ a:hover {
     transition: all 0.5s ease-in-out 0s;
 }
 
+a.menu-active {
+    text-decoration: none;
+    color: #8a6573;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #8a6573;
+}
+
+
 a:hover, a:focus {
-    color: #b8a07e;
+    color: #de895e;
     text-decoration: underline;
 }
 
@@ -71,22 +79,6 @@ p {
     font-size: 15px;
     color: #ffffff;
     line-height: 28px;
-}
-
-.btn {
-    background: #333;
-    border: medium none;
-    border-radius: 0;
-    color: #fff;
-    font-size: 12px;
-    height: 50px;
-    line-height: 50px;
-    padding: 0 30px;
-    text-transform: uppercase;
-}
-
-.btn:hover, .btn:focus {
-    color: #fff;
 }
 
 .padDiv {
@@ -138,7 +130,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-    background: #b8a07e;
+    background: #de895e;
 }
 
 .mb-30 {
@@ -499,7 +491,7 @@ h3#timeline {
 }
 
 #achievements .achievements-list .nav li:hover, #achievements .achievements-list .nav li.filter-active {
-    color: #b8a07e;
+    color: #de895e;
     transition: all 0.5s ease-in-out 0s;
 }
 
@@ -560,7 +552,7 @@ h3#timeline {
 }
 
 #footer .socials-media ul li a:hover {
-    color: #b8a07e;
+    color: #de895e;
     -moz-transition: all 0.5s ease-in-out 0s;
     -ms-transition: all 0.5s ease-in-out 0s;
     -o-transition: all 0.5s ease-in-out 0s;

@@ -45,10 +45,23 @@ a {
 
 a:hover {
     transition: all 0.5s ease-in-out 0s;
+    color:#de895e;
+}
+
+a.menu-active {
+    text-decoration: none;
+    color: #8a6573;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #8a6573;
 }
 
 a:hover, a:focus {
-    color: #b8a07e;
+    color: a.menu-active {
+        text-decoration: none;
+        color: #de895e;
+        padding-bottom: 11px;
+        border-bottom: 2px solid #de895e;
+    };
     text-decoration: underline;
 }
 
@@ -326,19 +339,11 @@ nav ul li a {
     font-weight: 500;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    -ms-transition: all 0.5s ease-in-out 0s;
-    -o-transition: all 0.5s ease-in-out 0s;
-    -webkit-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
-    color: #b8a07e;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    -ms-transition: all 0.5s ease-in-out 0s;
-    -o-transition: all 0.5s ease-in-out 0s;
-    -webkit-transition: all 0.5s ease-in-out 0s;
+    color: #de895e;
     transition: all 0.5s ease-in-out 0s;
 }
 
@@ -392,19 +397,12 @@ nav ul li a {
     font-weight: 500;
     background: transparent;
     text-transform: uppercase;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    -ms-transition: all 0.5s ease-in-out 0s;
-    -o-transition: all 0.5s ease-in-out 0s;
-    -webkit-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
 }
 
 #footer .socials-media ul li a:hover {
-    color: #b8a07e;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    -ms-transition: all 0.5s ease-in-out 0s;
-    -o-transition: all 0.5s ease-in-out 0s;
-    -webkit-transition: all 0.5s ease-in-out 0s;
+    color: #de895e;
+
     transition: all 0.5s ease-in-out 0s;
 }
 
