@@ -51,8 +51,8 @@
         padding-top: 5%;
     }
 
-    /* Portfolio */
-    #portfolio .portfolio-list .nav li {
+    /* achievements*/
+    #achievements.achievements-list .nav li {
         float: none;
         margin: 20px;
         display: inline-block;
@@ -105,8 +105,8 @@
         margin-bottom: 10px;
     }
 
-    /* Portfolio */
-    #portfolio .portfolio-list .nav li {
+    /* achievements*/
+    #achievements.achievements-list .nav li {
         float: none;
         margin: 20px;
         display: inline-block;
@@ -159,8 +159,8 @@
         padding-top: 15%;
     }
 
-    /* Portfolio */
-    #portfolio .portfolio-list .nav li {
+    /* achievements*/
+    #achievements.achievements-list .nav li {
         float: none;
         margin: 10px;
         display: inline-block;
@@ -214,8 +214,8 @@
         padding-right: 50px;
     }
 
-    /* Portfolio */
-    #portfolio .portfolio-list .nav li {
+    /* achievements*/
+    #achievements.achievements-list .nav li {
         float: none;
         margin: 20px;
     }
@@ -260,8 +260,8 @@
         display: block;
     }
 
-    /* Portfolio */
-    #portfolio .portfolio-list .nav li {
+    /* Achievements*/
+    #achievements.achievements-list .nav li {
         float: none;
         margin: 20px;
     }

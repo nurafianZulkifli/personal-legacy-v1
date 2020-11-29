@@ -158,10 +158,11 @@ nav {
 
 nav ul li {
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    margin-left: 40px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 nav ul li a {
@@ -476,7 +477,7 @@ h3#timeline {
 }
 
 #achievements .achievements-list .nav li {
-    margin: 0 40px 0 0;
+    margin: 0 20px 0 0;
     float: left;
     font-size: 14px;
     color: #999999;
