@@ -451,10 +451,17 @@ h3#timeline {
 /*-----------------------------------------------------------------------------------*/
 /*  Achievements
 /*-----------------------------------------------------------------------------------*/
+.container {
+    margin-right:12px
+}
 
 .col-lg-4 {
     margin-bottom: 3%;
     transition: all 0.3s ease-out;
+}
+
+.col-md-12{
+    padding-right: 10px;
 }
 
 .col-lg-4:hover {
