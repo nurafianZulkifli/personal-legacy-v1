@@ -207,6 +207,9 @@
     }
 
     /* Timeline */
+    h1#timeline {
+        padding-top: 25%;
+    }
     .img-footer {
         padding-right: 50px;
     }
