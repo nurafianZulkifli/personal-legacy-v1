@@ -140,6 +140,10 @@ p {
 /*  Navbar Top
 /*-----------------------------------------------------------------------------------*/
 
+.container {
+    padding-right:15px;
+}
+
 nav {
     position: fixed;
     background: rgba(214, 211, 211, 0.931);
@@ -579,5 +583,5 @@ h3#timeline {
 
 
 /* 
-    Last Updated: 29 November 2020
+    Last Updated: 5 Jan 2021
 */
